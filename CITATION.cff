@@ -1,0 +1,9 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+authors:
+  - family-names: "Chetto"
+    given-names: "Maryline"
+title: "PA-H Scheduling Framework: Simulation Code and Data"
+journal: "The Computer Journal"
+year: 2026
+url: "https://github.com/YourUsername/PA-H-Scheduling-Framework"
