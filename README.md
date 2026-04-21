@@ -1,11 +1,12 @@
-# PA-H Framework Replication Package
+## Publication
+The source code and datasets in this repository are the official implementation used for the experimental evaluation in the following research paper:
 
-This repository provides the source code and data used to evaluate the **PA-H (Priority Assignment with Energy Harvesting)** supervisor.
+> **Maryline Chetto, "Optimal Processor Management for Priority Driven Schedulers with Energy Harvesting", submitted to The Computer Journal, 2026.**
 
-## How to Reproduce
-1. **Simulation:** Run `simulation_engine.py` to see the logic for Mandatory Busy/Idle states.
-2. **Task Sets:** Run `task_generator.py` to generate randomized workloads using the UUnifast-Discard method.
-3. **Validation:** The file `results_data.csv` contains the raw points for the 95% Confidence Intervals presented in the paper.
+If you use this code or the datasets in your research, please cite the paper above.
 
-## Contact
-For questions regarding the mathematical proofs, please refer to the manuscript.
+## About the Simulation
+This repository provides all the necessary components to reproduce the results presented in the paper, specifically:
+- **PA-H Supervisor:** Implementation of the predictive look-ahead mechanism.
+- **Schedulability Tests:** Verification of the optimality proofs regarding energy neutrality and deadline success ratios.
+- **Experimental Data:** Synthetic task sets and energy profiles that match the simulation parameters described in Section 8 of the manuscript.
